@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<br>
+    <head>
+        <title>HEALTH CARE SYSTEM</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+        <div class="Physician Portal Hub">
+            <img  src="doctorAppointment.jpg" width="20%" height="20%"/>
+            </div>
+    <div>
+    <h4>Physician Portal Hub</h4>
+    </div>
+            
+        <p>
+            
+            <label for="first">
+                Username:
+            </label>
+              <input type="text"
+                 id="first"
+                 name="first"
+                 placeholder="Enter your Username" required></p>
+
+
+
+        
+               
+
+              
+                 <p>Click the radio button to toggle between password visibility:</p>
+
+                 <br>Password: <input type="password" value="Fiona" id="myInput"><br>
+                 <input type="checkbox" onclick="myFunction()">Show Password
+
+                 
+
+        <div class="wrap">
+                <button type="Login"
+                        onclick="solve()">
+                    Login
+                </button>
+            </div>
+                
+                
+              </form>  
+
+              <form id="appForm" action="/action_page.php">
+                <h4>Booking Appointment:</h4>
+                
+                <div class="tab">
+                  <p><label for="first">
+                    First Name:
+                    </label>
+                      <input type="text"
+                      id="first"
+                      name="first"
+                      placeholder="Enter your Firstname required"></p>
+                      <p><label for="Surname">
+                        Surname:
+                      </label>
+                      <input type="text"
+                      id="Surname"
+                      name="Surname"
+                      placeholder="Enter your surname required"></p>
+                  </div>                 
+
+                <div class="tab">Contact Info:
+
+                  <p><label for="tel">
+                    Phone Number:
+                    </label>
+                  
+                   <input type="tel"
+                      Phone No:             
+                      placeholder="Enter phone number"></p>
+                    <p><label for="Email">
+                    Email Address:
+
+                  </label>
+                    <input type="text"
+                    id="email"
+                      name="email"
+                    placeholder="Enter Email required "></p>
+                
+                </div>
+                <div class="tab">Appointment:
+                  <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
+                  <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+                  <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+                </div>
+                <div class="tab">Login Info:
+                  <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+                  <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+                </div>
+                <div style="overflow:auto;">
+                  <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                  </div>
+                </div>
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                  <span class="step"></span>
+                  <span class="step"></span>
+                  <span class="step"></span>
+                  <span class="step"></span>
+                </div>
+
+</body>
+</html>
