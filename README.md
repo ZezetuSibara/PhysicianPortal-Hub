@@ -21,7 +21,7 @@ Back-end: Node.js, (with frameworks like Flask), PHP
 Database: MySQL.
 
 # 5 Set Up of Development Environment:
-We install the necessary tools and dependencies for the chosen web stack. This include code editors (e.g., Visual Studio Code), version control systems (e.g., Git), and development servers.
+We install the necessary tools and dependencies for the choosen web stack. This include code editors (e.g., Visual Studio Code), version control systems (e.g., Git), and development servers.
 
 
 # 6 Test Your Portfolio: 
