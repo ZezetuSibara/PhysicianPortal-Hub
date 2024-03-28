@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysicianPortal</title>
+    <link rel="stylesheet" href="CSS/register.css">
+</head>
+<body>
+    <form class="create-form" action="/register" method="POST">
+        <fieldset>
+            <legend>Physician Details</legend>
+            <p>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" placeholder="First Name" name="first_name" required>
+            </p>
+            <p>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" placeholder="Last Name" name="last_name" required>
+            </p>
+            <p>
+                <label for="practice-id">Practice ID:</label>
+                <input type="text" id="practice-id" placeholder="Practice ID" name="practice_id" required>
+            </p>
+            <p>
+                <label for="id-number">ID Number:</label>
+                <input type="text" id="id-number" placeholder="ID Number" name="id_number" required>
+            </p>
+
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+            </p>
+
+            <p>
+                <label for="password">Confirm password:</label>
+                <input type="password" id="passwordConfirm" placeholder="Confirm password" name="confirm_password" required>
+            </p>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </fieldset>
+        <% if (message) { %>
+            <p class="error_message"><%= message %></p>
+        <% } %>
+    </form>
+</body>
+</html>

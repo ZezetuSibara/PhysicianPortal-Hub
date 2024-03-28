@@ -1,0 +1,101 @@
+.app-name {
+    font-family: Arial;
+    font-style: italic;
+}
+
+.login-button {
+    color: white;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: limegreen;
+}
+
+.page-list {
+    background-color: rgb(73, 117, 236);
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    height: 25px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-radius: 3px;
+}
+
+.page-list li {
+    display: inline-block; /* Display list items horizontally */
+    color: white;
+    margin-left: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.title-name {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.user-name input[type="username"] {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: grey;
+    padding: 10px;
+    width: 300px; /* Example width */
+}
+
+.password-placeholder input[type="password"] {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: grey;
+    padding: 10px; /* Example padding */
+    width: 300px; /* Example width */
+    margin-top: 10px;
+}
+
+/* button-styles.css */
+.login-button {
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 320px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-button:focus {
+    outline: none;
+}
+
+.red-create {
+    color: white;
+    background-color: rgb(7, 105, 48);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 320px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.red-create:hover {
+    background-color: green;
+}
+
+.red-create:focus {
+    outline: none;
+}
+
+.create-form {
+    border-radius: 15px;
+}
