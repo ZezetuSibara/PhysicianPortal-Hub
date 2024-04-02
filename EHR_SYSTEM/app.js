@@ -1,6 +1,10 @@
 const express = require('express');
 const db = require('./database_connect');
 const mysql = require('mysql');
+const bcrypt = require('bcryptjs');
+//const falsh = require('express-flash');
+//const session = require('express-flash');
+//const passport = require('passport');
 
 const app = express();
 
@@ -9,6 +13,10 @@ app.use(express.static(__dirname + '/views'));
 
 app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
+//app.use(flash());
+//app.use(session({secret: process.env.SECRET_KEY, resave: false, saveUninitialized: false}));
+//app.use(passport.initialize());
+//app.use(passport.session());
 
 db.connect( (err) => {
     if (err) {

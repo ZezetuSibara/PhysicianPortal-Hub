@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/logged.css">
+    <title>PhysicianPortal Hub</title>
+</head>
+<body class="logged-body">
+    <div class="container">
+        <% if (username) { %>
+            <h1><%= username %> appointments</h1>
+        <% } else { %>
+            <h1>Appointments</h1>
+        <% } %>
+        <ul>
+            <li><a href="http://localhost:3000/login">Logout</a></li>
+        </ul>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Ward Number</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% appointments.forEach(appointment => { %>
+                <tr>
+                    <td><%= appointment.First_name %></td>
+                    <td><%= appointment.Last_name %></td>
+                    <td><%= appointment.ward_no %></td>
+                    <td><%= appointment.date %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>
