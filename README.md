@@ -5,7 +5,7 @@ PhysicianPortal-Hub
 # 2 Participated group members in this project:
 
 -Fiona Molepo: Front- End 
--Mduduzi Buthelezi: Frameworks Libraries and Database
+-Mduduzi Buthelezi: back-End
 -Zezetu Sibara: Back-End
 
 
