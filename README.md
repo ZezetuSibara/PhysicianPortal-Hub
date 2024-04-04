@@ -18,7 +18,7 @@ Join us in shaping the future of medicine with our visionary EHR system.
 typically includes a combination of front-end (HTML, CSS, JavaScript) and back-end (server-side language, database) technologies.
 
 Front-end: HTML, CSS, JavaScript (with frameworks like React, Anodes.js)
-Back-end: Node.js, (with frameworks like Flask), PHP
+Back-end: Node.js, Express (with frameworks like Flask), PHP
 Database: MySQL.
 
 # 5 Set Up of Development Environment:
